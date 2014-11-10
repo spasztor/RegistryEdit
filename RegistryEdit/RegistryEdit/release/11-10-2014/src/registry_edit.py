@@ -20,7 +20,7 @@ logging.basicConfig(filename = _LOG_FILE_NAME, filemode = 'a', level = logging.D
 
 # The following is a series of definitions dependent on the version of AutoCad being used:
 _ACAD_VERSIONS = ["2014", "2015"]
-_ACAD_VERSION = "2014" # Change to match target AutoCad Version
+_ACAD_VERSION = "2015" # Change to match target AutoCad Version
 _KEY_LOCATIONS = {_ACAD_VERSIONS[0] : "\\R19.1\\ACAD-D000:409", _ACAD_VERSIONS[1] : "\\R20.0\\ACAD-E000:409"}
 _KEY_LOCATION = ("Software\\Autodesk\\AutoCAD" + _KEY_LOCATIONS[_ACAD_VERSION]
                          + "\\Profiles\\c3d\General")
